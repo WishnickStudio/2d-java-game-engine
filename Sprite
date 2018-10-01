@@ -1,0 +1,33 @@
+public class Sprite {
+
+    private int sprX;
+    private int sprY;
+    private int sprRot;
+    private int sprWid;
+    private int sprHgt;
+    private int[][] sprSheet;
+    private int numOfFrames;
+    private int sprIndex;
+    
+    public Sprite() {
+    
+        sprX = 0;
+        sprY = 0;
+        sprRot = 0;
+        sprWid = 1;
+        sprHgt = 1;
+        sprSheet = new int[1][1];
+        numOfFrames = 1;
+        sprIndex = 0;
+    }
+    
+    public int[sprWid][sprHgt] getSpr() {
+        int[][] temp = new int[sprWid][sprHgt];
+        
+        for (int x = 0; x < sprWid; x++) {
+            for (int y = 0; y < sprHgt; y++) {
+                temp[x][y] = sprSheet[(sprWid * sprIndex)+ x][(sprHgt * sprIndex)+ y]
+            }
+        }
+    }
+}
