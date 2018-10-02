@@ -1,14 +1,14 @@
 # 2d-java-game-engine
 
-    The 2D Java Game Engine has been in development since September of 2018. The goals of the JGE were focused on optimizing the game development proccess for developers with intermediate java knowlage. It is important to note that at this time, this engine does not include any game editor. Anyone interested in using this project should install the project files into a new Java project, as explained in the Getting Started secion below. An API is in development and should be posted here shortly. 
+The 2D Java Game Engine has been in development since September of 2018. The goals of the JGE were focused on optimizing the game development proccess for developers with intermediate java knowlage. It is important to note that at this time, this engine does not include any game editor. Anyone interested in using this project should install the project files into a new Java project, as explained in the Getting Started secion below. An API is in development and should be posted here shortly. 
 
 ## Getting Started
 
-    These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-    What things you need to install the software and how to install them
+What things you need to install the software and how to install them
 
 ```
 Give examples
