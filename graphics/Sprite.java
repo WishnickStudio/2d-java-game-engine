@@ -68,6 +68,15 @@ public class Sprite {
             }
         }
     }
+    public void nextFrame() {
+        sprIndex++;
+        if ((sprIndex + 1) > numOfFrames) {
+            sprIndex = 0;
+        }
+        else {
+        
+        }
+    }
     
     public int getPosX() {
     
