@@ -35,11 +35,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 run TestComponents.java and input the testID when asked.
 
-### Sprite Class test (testID = 000)
+### Sprite Class test         (testID = 000)
 
 Test the Sprite component by creating an object from class Sprite and return pass/fail for each constructure.
 
 ```
+testID: 000
+
 test:           create new sprite obj       pass
 test:           change spritesheet          pass
 test:           return obj's spritesheet    pass
@@ -51,30 +53,34 @@ results:        no errors in class 'Sprite'
                 Continue [Y] or Exit [N]
 ```
 
-### Game Class test (testID = 001)
+### Game Class test           (testID = 001)
+### Collision Class test      (testID = 002)
+### Input Class test          (testID = 003)
 
-Test the Game component and return pass/fail
-
-```
-test:           create new sprite obj       pass
-test:           change spritesheet          pass
-test:           return obj's spritesheet    pass
-test:           move obj around screen      pass
-test:           obj's animation loops       pass
-
-results:        no errors in class 'Game'
-
-                Continue [Y] or Exit [N]
-```
 
 ### And coding style tests
 
-Explain what these tests test and why
+To maintain code syle standards for this project, please run TestComponents.java to correct any style mistakes.
+
+1.) Run Test Class
+```
+run TestComponents.java
 
 ```
-Give an example
+2.) When prompted, input 999 as test ID
 ```
+testID: 999
+```
+3.) Once all files have passed the CodeCleanup class, you may close and upload gradle project.
+```
+Sprite.java     clean
+Game.java       clean
+Render.java     clean
+Update.java     clean
 
+Done, 4 files checked
+      0 files cleaned
+```
 ## Deployment
 
 Add additional notes about how to deploy this on a live system
